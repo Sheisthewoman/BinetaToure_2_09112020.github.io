@@ -10,3 +10,117 @@ a {
 i {
   color: inherit;
 }
+/*mobile*/
+@media screen and (max-width: 413px) {
+  /*header*/
+    .header {
+      border: 3px solid transparent;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px 0px 30px 0px;
+    } 
+    .headerImg {
+    padding-left: 20px;
+    }
+    .headerSignup {
+      align-self: center;
+      font-weight: 900;
+      padding-right: 20px;
+      color: #0065FC;
+      font-size: 18px;
+    }
+    .headerNav {
+      display: flex;
+      width: 100%;
+      line-height: 70px;
+    }
+    .headerNavLink:nth-child(1) {
+      font-weight: 500;
+      border-bottom: 2px solid #0065FC;
+      width: 50%;
+      padding-left: 38px;
+      color: #0065FC;
+      font-size: 18px;
+    } 
+    .headerNavLink:nth-child(2) {
+      color:#000;
+      border-bottom: 2px solid #f2f2f2;
+      width: 50%;
+      padding-left: 66px;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    }
+  /*tablette*/
+  @media screen and (min-width: 414px, max-width: 1023px) {
+    /*header*/
+    .header {
+      border: 3px solid transparent;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px 0px 30px 0px;
+      } 
+    .headerImg {
+    padding-left: 20px;
+    }
+    .headerSignup {
+      align-self: center;
+      font-weight: 900;
+      padding-right: 20px;
+      color: #0065FC;
+      font-size: 18px;
+    }
+    .headerNav {
+      display: flex;
+      width: 100%;
+      line-height: 70px;
+    }
+    .headerNavLink:nth-child(1) {
+      font-weight: 500;
+      border-bottom: 2px solid #0065FC;
+      width: 50%;
+      padding-left: 38px;
+      color: #0065FC;
+      font-size: 18px;
+    } 
+    .headerNavLink:nth-child(2) {
+      color:#000;
+      border-bottom: 2px solid #f2f2f2;
+      width: 50%;
+      padding-left: 66px;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    }
+/*desktop*/
+@media screen and (min-width: 1024px) {
+  /*header*/
+  .header {
+    display: flex;
+    padding: 20px 50px 30px 50px;
+    justify-content: space-between;
+    border: 3px solid transparent;
+  }    
+  .headerImg {
+    order: 1;
+  }
+  .headerNav {
+    padding: 0px 0px 0px 350px;
+    order: 2;
+  }
+  .headerNavLink:nth-child(1) {
+    border-top: 3px solid #0065FC;
+    padding: 20px;
+    font-weight: 500;
+  }
+  .headerNavLink:nth-child(2) {
+    padding: 0px 0px 0px 50px;
+    color: #000;
+  }
+  .headerSignup {
+    font-weight: 700;
+    order:3;
+  } 
+  }
