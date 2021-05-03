@@ -51,7 +51,25 @@ i {
       font-weight: 500;
       font-size: 18px;
     }
-    }
+    /*footer*/
+  .footer {
+    background-color: #f2f2f2;
+    padding: 20px 0px 20px 30px;
+    border: 3px solid transparent;
+  }
+  .footerColumnTitle {
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .footerColumnLink {
+    color: #000;
+    display: flex;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  }
   /*tablette*/
   @media screen and (min-width: 414px, max-width: 1023px) {
     /*header*/
@@ -93,8 +111,26 @@ i {
       font-weight: 500;
       font-size: 18px;
     }
+    /*footer*/
+    .footer {
+      background-color: #f2f2f2;
+      padding: 20px 0px 20px 30px;
+      border: 3px solid transparent;
     }
-/*desktop*/
+    .footerColumnTitle {
+      color: #000;
+      font-size: 20px;
+      font-weight: 900;
+    }
+    .footerColumnLink {
+      color: #000;
+      display: flex;
+      line-height: 30px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    }
+  /*desktop*/
 @media screen and (min-width: 1024px) {
   /*header*/
   .header {
@@ -123,4 +159,20 @@ i {
     font-weight: 700;
     order:3;
   } 
+  /*footer*/
+  .footer {
+    background-color: #f2f2f2;
+    padding: 20px 300px 50px 50px;
+    border: 3px solid transparent;
+  }
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footerColumnLink {
+    display: block;
+    line-height: 30px;
+    color: #000;
+    font-size: 18px;
+  }  
   }
