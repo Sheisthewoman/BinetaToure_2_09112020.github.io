@@ -51,7 +51,222 @@ i {
       font-weight: 500;
       font-size: 18px;
     }
-    /*footer*/
+    /*main*/
+  .main {
+    border: 3px solid transparent;
+  }
+  .search {
+    padding: 20px 20px 30px 20px;
+  }
+  .searchHeaderTitle {
+    font-size: 25px;
+    font-weight: 900;
+    color: #000;
+  }
+  .searchHeaderSubtitle {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 10px;
+  }
+  .searchForm {
+    border: 1px solid #f2f2f2;
+    margin: 40px 0px 40px 0px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .searchFormWrapicon {
+    border: 3px solid #f2f2f2;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #f2f2f2;
+    padding: 12px 13px 13px 13px;
+  }
+  .fa-map-marker-alt {
+    color: #000;
+    }
+  .searchFormSearchinput {
+    border: 3px solid transparent;
+    padding: 13px 13px 13px 13px;
+    width: 72.7%;
+  }
+  .searchFormSearchinput::placeholder {
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .searchFormSubmitinput {
+    border: 3px solid #0065FC;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #0065FC;
+    padding: 13px 14px 13px 14px;
+  }
+  .searchFormSubmitinputText {
+    display: none;
+  }
+  .fa-search {
+    color: #fff;
+  }
+  .searchFiltersTitle {
+    font-size: 18px;;
+  }
+  .searchFiltersContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .searchFiltersFilter {
+    display: flex;
+    border: 2px solid lightgray;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px 0px 15px 0px;
+    align-items: center;
+  }
+  .searchFiltersFilterWrapicon {
+    border: 2px solid lightblue;
+    border-radius: 20px 20px 20px 20px;
+    background-color: lightblue;
+    padding: 8px 8px 8px 8px;
+  }
+  .searchFiltersFilterWrapiconIcon {
+    color: #0065FC;
+  }
+  .searchFiltersFilterTitle {
+    color: #000;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 0px 20px 0px 10px;
+  }
+  .searchFiltersFilterTitleModifier {
+    padding : 0px 50px 0px 10px;
+  }
+  .searchResult {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .fa-info {
+    border: 1px solid #f2f2f2;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #fff;
+    color: #0065FC;
+    padding: 5px 10px 5px 10px;
+  }
+  .searchResultText {
+    margin: 20px 0px 0px 0px;
+    color: #000;
+    font-weight: 500;
+    font-size: 17.5px;
+  }
+  .hostingPopular {
+    background-color: #f2f2f2;
+    padding: 50px 20px 30px 20px;
+  }
+  .hostingPopularTitle {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  .Card {
+    border: 5px solid #fff;
+    border-radius: 20px 20px 20px 20px;
+    margin: 10px 0px 10px 0px;
+    background-color: #fff;
+  }
+  .CardFigure {
+    display: flex;
+    margin: 0;
+  }
+  .CardFigureImg {
+    width: 40%;
+    border: 5px;
+    border-radius: 20px 0px 0px 20px;
+  }
+  .CardFigcaption {
+    padding: 0px 0px 0px 20px;
+  }
+  .CardFigcaptionTitle {
+    font-weight: 900;
+    color: #000;
+  }
+  .CardFigcaptionSubtitle {
+    font-weight: 500;
+    color: #000;
+    line-height: 1px;
+  }
+  .CardFigcaptionspace {
+    padding: 35px 0px 0px 0px;
+  }
+  .CardFigcaptionGrade {
+    padding: 0px 0px 10px 0px;
+  }
+  .fa-star {
+    color: #0065FC;
+  }
+  .hostingMain {
+    padding: 50px 20px 30px 0px;
+  }
+  .hostingMainHeaderTitle {
+    color: #000;
+    font-weight: 900;
+    font-size: 25px;
+    padding: 0px 0px 0px 20px;
+  }
+  .CardModifier {
+    border: 5px solid #fff;
+    border-radius: 20px 20px 20px 20px;
+    margin: 10px 0px 15px 0px;
+    box-shadow: 2px 2px 2px 2px #f2f2f2;
+  }
+  .CardFigureModifier {
+    margin: 0;
+  }
+  .CardFigureImgModifier {
+    width: 100%;
+    height: 150px;
+    border: 5px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .CardFigcaptionModifier {
+    padding:  0px 0px 5px 20px;
+  }
+  .CardFigcaptionTitleModifier {
+    font-weight: 900;
+    color: #000;
+    font-size: 20px;
+    line-height: 5px;
+  }
+  .CardFigcaptionSubtitleModifier {
+    color: #000;
+    font-weight: 500;
+    line-height: 5px;
+  }
+  .fa-starModifier  {
+    color: #f2f2f2;
+  }
+  .hostingMainContent {
+    padding: 0px 0px 20px 20px;
+  }
+  .hostingMainViewmore {
+    font-weight: 900;
+    font-size: 21px;
+    color: #000;
+    padding: 0px 0px 0px 18px;
+  }
+  .activity {
+    padding: 30px 20px 50px 20px;
+  }
+  .CardModifierModifier {
+    border-radius: 20px 20px 20px 20px;
+    margin: 10px 0px 20px 0px;
+    box-shadow: 2px 2px 2px 2px #f2f2f2;
+  }
+  .CardFigcaptionTitleModifierModifier {
+    color: #000;
+    padding: 0px 0px 20px 20px;
+    font-size: 18px;
+    font-weight: 900;
+  }
+  /*footer*/
   .footer {
     background-color: #f2f2f2;
     padding: 20px 0px 20px 30px;
@@ -111,7 +326,7 @@ i {
       font-weight: 500;
       font-size: 18px;
     }
-    /*footer*/
+    /*main*/
     .footer {
       background-color: #f2f2f2;
       padding: 20px 0px 20px 30px;
@@ -159,6 +374,238 @@ i {
     font-weight: 700;
     order:3;
   } 
+  /*main*/
+    .main {
+      border: 3px solid transparent;
+    }
+    .search {
+    padding: 20px 20px 30px 20px;
+    }
+    .searchHeaderTitle {
+      font-size: 23px;
+    }
+    .searchHeaderTitle br {
+      display: none;
+    }
+    .searchHeaderSubtitle {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 10px;
+    }
+    .searchForm {
+      border: 1px solid #f2f2f2;
+      margin: 30px 0px 30px 0px;
+      border-radius: 10px;
+      width: 44%;
+    }
+    .searchFormWrapicon {
+      border: 3px solid #f2f2f2;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+      background-color: #f2f2f2;
+      padding: 13.7px 12px 13.7px 12px;
+    }
+    .searchFormSearchinput {
+      border: 3px solid transparent;
+      padding: 13px 13px 13px 13px;
+      width: 50%;
+    }
+    .searchFormSearchinput::placeholder {
+      color: #000;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .searchFormSubmitinput {
+      border: 3px solid #0065FC;
+      border-radius: 0px 10px 10px 0px;
+      padding: 13px 13px 13px 13px;
+      background-color: #0065FC;
+      width: 38.2%;
+    }
+    .searchFormSubmitinputText {
+      color: #fff;
+      font-size: 18px;
+    }
+    .fa-search {
+      color: transparent;
+    }
+    .searchFilters {
+      display: flex;
+    }
+    .searchFiltersTitle {
+      font-size: 18px;
+    }
+    .searchFiltersContent {
+      display: flex;
+    }
+    .searchFiltersFilter {
+      border: 2px solid #f2f2f2;
+      border-radius: 30px 30px 30px 30px;
+      display: flex;
+      align-items: center;
+      margin: 0px 0px 0px 40px;
+    }
+    .searchFiltersFilterWrapicon {
+      border: 2px solid lightblue;
+      background-color: lightblue;
+      padding: 13px 13px 13px 13px;
+      border-radius: 20px 20px 20px 20px;
+    }
+    .searchFiltersFilterWrapiconIcon {
+      color: #0065FC;
+    }
+    .searchFiltersFilterTitle {
+      font-weight: 800;
+      padding: 0px 20px 0px 10px;
+      font-size: 18px;
+    }
+    .searchResult {
+      display: flex;
+      padding: 30px 0px 0px 0px;
+      align-items: center;
+    }
+    .searchResultWrapicon {
+      color: #0065FC;
+      background-color: #fff;
+      border: 2px solid #f2f2f2;
+      border-radius: 20px 20px 20px 20px;
+      padding: 5px 10px 5px 10px;
+    }
+    .searchResultText {
+      padding: 0px 0px 0px 10px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .searchResultText br {
+      display: none;
+    }
+    .hosting {
+      display: flex;
+    }
+    .hostingPopular {
+      width: 40%;
+      padding: 20px 20px 30px 20px;
+      order: 2;
+      background-color: #f2f2f2;
+      border: 2px solid #f2f2f2;
+      border-radius: 15px 15px 15px 15px;
+      margin: 0px 50px 0px 0px;
+    }
+    .hostingPopularTitle {
+      display: flex;
+      justify-content: space-between;
+    }
+    .Card {
+      border: 5px solid #fff;
+      border-radius: 20px 20px 20px 20px;
+      margin: 30px 0px 35px 0px;
+      background-color: #fff;
+    }
+    .CardFigure {
+      display: flex;
+      margin: 0;
+    }
+    .CardFigureImg {
+      width: 35%;
+      border: 5px;
+      border-radius: 20px 0px 0px 20px;
+    }
+    .CardFigcaption {
+      padding: 0px 0px 0px 20px;
+    }
+    .CardFigcaptionTitle {
+      font-weight: 900;
+      color: #000;
+    }
+    .CardFigcaptionSubtitle {
+      font-weight: 500;
+      color: #000;
+      line-height: 1px;
+    }
+    .CardFigcaptionspace {
+      padding: 30px 0px 0px 0px;
+    }
+    .CardFigcaptionGrade {
+      padding: 0px 0px 5px 0px;
+    }
+    .fa-star {
+      color: #0065FC;
+    }
+    .hostingMain {
+      padding: 20px 10px 30px 30px;
+      width: 70%;
+      order: 1;
+      background-color: #f2f2f2;
+      border: 2px solid #f2f2f2;
+      border-radius: 15px 15px 15px 15px;
+      margin: 0px 50px 0px 50px;
+    }
+    .hostingMainContent {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .CardModifier {
+      border: 5px solid #fff;
+      border-radius: 20px 20px 20px 20px;
+      margin: 10px 15px 15px 0px;
+      box-shadow: 2px 2px 2px 2px #f2f2f2;
+      width: 28%;
+    }
+    .CardFigureModifier {
+      margin: 0;
+    }
+    .CardFigureImgModifier {
+      width: 100%;
+      height: 150px;
+      border: 5px;
+      border-radius: 20px 20px 0px 0px;
+    }
+    .CardFigcaptionModifier {
+      padding:  0px 0px 5px 20px;
+      background-color: #fff;
+    }
+    .CardFigcaptionTitleModifier {
+      font-weight: 900;
+      color: #000;
+      font-size: 20px;
+    }
+    .CardFigcaptionSubtitleModifier {
+      color: #000;
+      font-weight: 500;
+    }
+    .fa-starModifier  {
+      color: #f2f2f2;
+    }
+    .hostingMainViewmore {
+      font-weight: 900;
+      font-size: 21px;
+      color: #000;
+      padding: 0px 0px 0px 18px;
+    }
+    .activity {
+      padding: 30px 20px 50px 20px;
+      border: 3px solid transparent;
+    }
+    .activityContent {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .CardModifierModifier {
+      border-radius: 20px 20px 20px 20px;
+      box-shadow: 2px 2px 2px 2px #f2f2f2;
+      width: 30%;
+      margin: 0px 20px 20px 0px;
+    }
+    .CardFigureImgModifierModifier {
+      width: 100%;
+      height: 150px;
+    }
+    .CardFigcaptionTitleModifierModifier {
+      color: #000;
+      padding: 0px 0px 20px 20px;
+      font-size: 18px;
+      font-weight: 900;
+    }  
   /*footer*/
   .footer {
     background-color: #f2f2f2;
