@@ -1,0 +1,7 @@
+règles générales à la page
+mobile-first le parent et les enfants
+1/header
+2/footer
+3/main
+Desktop 
+tablette règles du mobile + règles du desktop
